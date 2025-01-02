@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.screen {
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #2E4053;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+header .profile {
+    width: 50px;
+    height: 50px;
+    background: #2E4053;
+    border-radius: 50px;
+    position: absolute;
+    left: 10px;
+}
+
+header h4 {
+    font-size: 14px;
+    font-weight: normal;
+    position: absolute;
+    right: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.account-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-info h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.account-info h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #666;
+}
+
+.account-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.account-type {
+    background-color: #fff;
+    padding: 0 10px;
+}
+
+.account-type h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.account-balance {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-balance h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.Ts{
+      width: 90%;
+      height: 5vh;
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background: #fff;
+      border-radius: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      margin-bottom: 10px;
+}
+.Ts h5{
+      font-size: 10px;
+      font-weight: 550;
+      position: absolute;
+      left: 5px;
+}
+.Ts i{
+      font-size: 10px;
+      position: absolute;
+      right: 10px;
+}
+.transaction {
+      width: 90%;
+      height: 35vh;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background: #fff;
+      border-radius: 10px;
+      padding: 0 10px;
+      margin: 0 auto;
+      overflow-y: auto;
+}
+.trans{
+      width: 85%;
+      height: 6vh;
+      z-index: 999;
+      background: #fff;
+      position: absolute;
+      margin: 0 -10px;
+      padding: 20px 15px;
+      display: flex;
+      justify-content: space-between;
+      border-top-left-radius: 10px;
+}
+.trans h3{
+      font-size: 15px;
+      font-weight: 420;
+}
+.trans i{
+      padding-top: 8px;
+}
+.transact{
+      width: 90%;
+      height: 8vh;
+      border-bottom: 0.5px solid #ccc;
+      border-radius: 0px;
+      margin: 5px auto;
+      padding: 10px;
+      position: relative;
+}
+.transact h4{
+      font-size: 12px;
+}
+.transact p{
+      font-size: 8px;
+      font-weight: 750;
+}
+.fer{
+      position: absolute;
+      right: 10px;
+      top:15px;
+      font-size: 12px;
+      color: green;
+}
+.bottom{
+      width: 100%;
+      min-height: 30px;
+      background: #fff;
+      display: flex;
+      margin-top: -50px;
+}
+.go-to{
+      width: 50%;
+      height: 45px;
+      background:  #2E4053;
+      border-left: 1px solid #ccc;
+      text-align: center;
+      font-size: 20px;
+      font-weight:600;
+      padding-top: 20px;
+      color: #fff;
+}
+
