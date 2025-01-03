@@ -111,6 +111,7 @@ main {
       align-items: center;
       position: relative;
       margin-bottom: 10px;
+      margin-top: -30px;
 }
 .Ts h5{
       font-size: 10px;
@@ -125,7 +126,7 @@ main {
 }
 .transaction {
       width: 90%;
-      height: 35vh;
+      height: 30vh;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       background: #fff;
       border-radius: 10px;
@@ -180,7 +181,7 @@ main {
       min-height: 30px;
       background: #fff;
       display: flex;
-      margin-top: -50px;
+      margin-top: -65px;
 }
 .go-to{
       width: 50%;
@@ -193,4 +194,15 @@ main {
       padding-top: 20px;
       color: #fff;
 }
-
+.go-to2{
+      width: 50%;
+      height: 45px;
+      background:  #2E4053;
+      border-left: 1px solid #ccc;
+      text-align: center;
+      font-size: 20px;
+      font-weight:600;
+      padding-top: 20px;
+      color: #fff;
+    }
+    
